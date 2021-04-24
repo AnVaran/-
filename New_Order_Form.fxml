@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="newOrderForm" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="658.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="106.0" layoutY="48.0" prefHeight="58.0" prefWidth="350.0" style="-fx-background-color: #F4F4F4;" text="Новая заявка">
+         <font>
+            <Font name="Arial Bold" size="40.0" />
+         </font>
+      </Label>
+      <TextField fx:id="N_O_telephoneTextField" layoutX="30.0" layoutY="140.0" prefHeight="52.0" prefWidth="433.0" promptText="Номер телефона" style="-fx-border-color: #333333; -fx-background-radius: 10; -fx-border-radius: 10;">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="N_O_dateTextField" layoutX="30.0" layoutY="220.0" prefHeight="39.0" prefWidth="431.0" promptText="Дата отгрузки ДД.ММ.ГГГГ" style="-fx-border-color: #333333; -fx-background-radius: 10; -fx-border-radius: 10;">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="N_O_probuctCodeTextField" layoutX="30.0" layoutY="320.0" prefHeight="44.0" prefWidth="432.0" promptText="Артикул" style="-fx-border-color: #333333; -fx-background-radius: 10; -fx-border-radius: 10;">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="N_O_productCountTextField" layoutX="30.0" layoutY="400.0" prefHeight="51.0" prefWidth="432.0" promptText="Количество" style="-fx-border-color: #333333; -fx-background-radius: 10; -fx-border-radius: 10;">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </TextField>
+      <Button fx:id="N_O_addProductButton" layoutX="28.0" layoutY="495.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="434.0" style="-fx-border-color: #333333; -fx-background-radius: 10; -fx-border-radius: 10; -fx-background-color: #FFFFFF;" text="Добавить товар">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Pane layoutX="-9.0" layoutY="289.0" prefHeight="4.0" prefWidth="510.0" style="-fx-background-color: #CCCCCC;" />
+      <Pane layoutX="-5.0" layoutY="472.0" prefHeight="4.0" prefWidth="510.0" style="-fx-background-color: #CCCCCC;" />
+      <Button fx:id="N_O_createNewOrderButton" layoutX="28.0" layoutY="568.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="434.0" style="-fx-border-color: #333333; -fx-background-radius: 10; -fx-border-radius: 10; -fx-background-color: #CCCCCC;" text="Создать заявку">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

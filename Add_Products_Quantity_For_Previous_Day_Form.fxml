@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="yesterdayAddingForm" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="337.0" prefWidth="592.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="84.0" layoutY="41.0" prefHeight="58.0" prefWidth="555.0" style="-fx-background-color: #F4F4F4;" text="Приход за вчерашний день">
+         <font>
+            <Font name="Arial Bold" size="32.0" />
+         </font>
+      </Label>
+      <Button fx:id="Y_A_addAddingButton" layoutX="84.0" layoutY="226.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="436.0" style="-fx-border-color: #333333; -fx-background-radius: 10; -fx-border-radius: 10;" text="Добавить приход">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <ComboBox fx:id="Y_A_poductNameList" layoutX="84.0" layoutY="137.0" prefHeight="50.0" prefWidth="214.0" promptText="Наименование товара" style="-fx-background-radius: 10; -fx-border-color: #333333; -fx-border-radius: 10;" />
+      <TextField fx:id="Y_A_productCountTextField" layoutX="410.0" layoutY="137.0" prefHeight="50.0" prefWidth="107.0" promptText="Шт." style="-fx-border-color: #333333; -fx-border-radius: 10; -fx-background-radius: 10;" />
+   </children>
+</AnchorPane>
